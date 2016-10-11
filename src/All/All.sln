@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SYUSB", "..\SYUSB\SYUSB\SYUSB.vcproj", "{231984C6-A669-43FC-84E5-35C6D0DD13AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SYUSBDemo", "..\SYUSBDemo\SYUSBDemo\SYUSBDemo.vcproj", "{4A1470C2-1D36-4FAE-BCCC-3CBB06CF72C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{231984C6-A669-43FC-84E5-35C6D0DD13AC} = {231984C6-A669-43FC-84E5-35C6D0DD13AC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{231984C6-A669-43FC-84E5-35C6D0DD13AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{231984C6-A669-43FC-84E5-35C6D0DD13AC}.Debug|Win32.Build.0 = Debug|Win32
+		{231984C6-A669-43FC-84E5-35C6D0DD13AC}.Release|Win32.ActiveCfg = Release|Win32
+		{231984C6-A669-43FC-84E5-35C6D0DD13AC}.Release|Win32.Build.0 = Release|Win32
+		{4A1470C2-1D36-4FAE-BCCC-3CBB06CF72C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A1470C2-1D36-4FAE-BCCC-3CBB06CF72C5}.Debug|Win32.Build.0 = Debug|Win32
+		{4A1470C2-1D36-4FAE-BCCC-3CBB06CF72C5}.Release|Win32.ActiveCfg = Release|Win32
+		{4A1470C2-1D36-4FAE-BCCC-3CBB06CF72C5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

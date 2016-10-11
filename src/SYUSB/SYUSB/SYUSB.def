@@ -1,0 +1,6 @@
+LIBRARY	"SYUSB"
+
+EXPORTS
+		TestAdd				@1
+		RegisterWithHwnd	@2
+		UnRegister			@3
